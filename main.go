@@ -8,5 +8,5 @@ import (
 func main() {
 	fmt.Println("Starting the application...")
 	config, _ := config.LoadConfiguration("config.json")
-	fmt.Println(config.Database.Host)
+	fmt.Println(config)
 }
